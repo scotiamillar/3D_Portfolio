@@ -150,7 +150,7 @@ const ThreeBanner = () => {
             bevelSegments={5}
             >
                 Scotia Millar
-                <meshLambertMaterial color="#67E8F9" emissive="#67E8F9" />
+                <meshLambertMaterial color="#FF69B4" emissive="#FF69B4" />
             </Text3D>
         </Center>
 

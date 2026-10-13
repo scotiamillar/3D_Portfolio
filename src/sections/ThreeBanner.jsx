@@ -1,6 +1,6 @@
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Text3D, Center } from '@react-three/drei'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 
 
 const RotatingShape = ({
@@ -52,50 +52,50 @@ const ThreeBanner = () => {
         <OrbitControls />
         
         <directionalLight
-        position={[1, 1, 1]}
-        intensity={3}
-        color="#9CDBA6"
+          position={[1, 1, 1]}
+          intensity={3}
+          color="#9CDBA6"
         />
         
         <RotatingShape
-        position={[3, 2, -3]}
-        color="#53a12f"
-        shape="torusKnot"
-        scale={0.6}
-        animation="rotate1"
+          position={[3, 2, -3]}
+          color="#53a12f"
+          shape="torusKnot"
+          scale={0.6}
+          animation="rotate1"
         />
         
         <RotatingShape
-        position={[5, 0, 0]}
-        color="#e879f9"
-        shape="torus"
-        scale={0.5}
-        animation="rotate2"
+          position={[5, 0, 0]}
+          color="#e879f9"
+          shape="torus"
+          scale={0.5}
+          animation="rotate2"
         />
         
         <RotatingShape
-        position={[9, 0, 0]}
-        color="#38bdf8"
-        shape="octahedron"
-        scale={0.5}
-        animation="rotate1"
+          position={[9, 0, 0]}
+          color="#38bdf8"
+          shape="octahedron"
+          scale={0.5}
+          animation="rotate1"
         />
 
         <RotatingShape
-        position={[6, 1, 1]}
-        color="orange"
-        shape="cone"
-        scale={0.3}
-        animation="bounce"
-        rotation={[0, Math.PI, 0]}
+          position={[6, 1, 1]}
+          color="orange"
+          shape="cone"
+          scale={0.3}
+          animation="bounce"
+          rotation={[0, Math.PI, 0]}
         />
 
         <RotatingShape
-        position={[13, -2, -1]}
-        color="yellow"
-        shape="box"
-        scale={0.6}
-        animation="rotate2"
+          position={[13, -2, -1]}
+          color="yellow"
+          shape="box"
+          scale={0.6}
+          animation="rotate2"
         />
 
         <RotatingShape
@@ -150,7 +150,7 @@ const ThreeBanner = () => {
             bevelSegments={5}
             >
                 Scotia Millar
-                <meshLambertMaterial color="#FF69B4" emissive="#FF69B4" />
+                <meshLambertMaterial color="#F7882F" emissive="#F7882F" />
             </Text3D>
         </Center>
 

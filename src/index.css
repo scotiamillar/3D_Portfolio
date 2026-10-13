@@ -27,3 +27,12 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+.fairy-bulb {
+  animation: twinkle 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  from { opacity: 0.7; }
+  to { opacity: 1; }
+}

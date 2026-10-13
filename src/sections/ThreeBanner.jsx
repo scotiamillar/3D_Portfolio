@@ -1,4 +1,4 @@
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { OrbitControls, Text3D, Center } from '@react-three/drei'
 import { useRef, useEffect } from 'react'
 
@@ -45,10 +45,28 @@ const RotatingShape = ({
   )
 }
 
+const ResponsiveCamera = () => {
+  const { camera, size } = useThree()
+
+  useEffect(() => {
+    if (size.width < 640) {
+      camera.position.set(0, 0, 24) // zoom out on small screens
+    } else {
+      camera.position.set(0, 0, 5) // desktop view
+    }
+
+    camera.lookAt(0, 0, 0)
+    camera.updateProjectionMatrix()
+  }, [camera, size.width])
+
+  return null
+}
+
 const ThreeBanner = () => {
   return (
     <div className="w-full h-100">
       <Canvas>
+        <ResponsiveCamera />
         <OrbitControls />
         
         <directionalLight

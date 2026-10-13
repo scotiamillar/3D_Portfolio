@@ -18,6 +18,7 @@ const App = () => {
         <ThreeBanner/>
 
         <section className="grid grid-cols-1 md:grid-cols-2 items-start gap-6 pt-2 pb-8">
+        <div>
         <div className="bg-gray-100 rounded-xl border-l-4 border-[#F7882F] p-6">
         <h1
         className="text-4xl md:text-4xl font-bold"
@@ -34,8 +35,22 @@ const App = () => {
             > I'm a third-year Mathematics and Computer Science 
             student at McGill University. I'm super interested computer graphics, 3D, animation, simulation, and
             game development. I like making cool stuff with code. In my free time, I've been working on graphics simulations,
-             character animation, and an open-world RPG game in Unreal Engine.</p>
-            </div>
+             character animation, and an open world RPG in Unreal Engine. I'm also an avid stop-motion filmmaker and classical singer!</p>
+             </div>
+
+             <div className="mt-10 flex justify-center">
+                <div className="w-90 h-[450px] overflow-hidden">
+                  <video
+                    src="/GettingReady.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              </div>
 
             <div
             className="relative h-240 bg-cover bg-center overflow-hidden"
@@ -97,10 +112,15 @@ const App = () => {
             }}
             />
 
+            <img
+            src="/Rainbow.png"
+            className="absolute rotate-12 right-[15%] top-[77%] w-[20%]"
+            />
+
             
             <Link
               to="/projects"
-              className="absolute -rotate-5 top-[25%] left-[5%] w-[60%]"
+              className="absolute -rotate-5 top-[25%] left-[5%] w-[60%] [clip-path:inset(25%)]"
             >
               <img
                 src="/Projects.png"
@@ -111,11 +131,22 @@ const App = () => {
 
              <Link
               to="/experience"
-              className="absolute rotate-5 top-[33%] right-[-5%] w-[60%]"
+              className="absolute rotate-5 top-[33%] right-[-5%] w-[60%] [clip-path:inset(28%)]"
             >
               <img
                 src="/Experience.png"
                 alt="Experience"
+                className="block w-full"
+              />
+            </Link>
+
+            <Link
+              to="/contact"
+              className="absolute top-[55%] left-[2%] w-[55%] clip-path:inset(40%)]"
+            >
+              <img
+                src="/Contact.png"
+                alt="Contact"
                 className="block w-full"
               />
             </Link>

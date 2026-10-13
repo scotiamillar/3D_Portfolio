@@ -50,7 +50,7 @@ const ResponsiveCamera = () => {
 
   useEffect(() => {
     if (size.width < 640) {
-      camera.position.set(0, 0, 24) // zoom out on small screens
+      camera.position.set(0, 0, 15) // zoom out on small screens
     } else {
       camera.position.set(0, 0, 5) // desktop view
     }

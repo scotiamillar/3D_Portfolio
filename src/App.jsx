@@ -32,10 +32,9 @@ const App = () => {
             <p
             className="text-lg font-normal text-black mt-4 pl-4"
             > I'm a third-year Mathematics and Computer Science 
-            student at McGill University with a strong interest in computer graphics, 3D, animation, simulation, and
-            game development. I enjoy working on projects that combine programming, mathematics, and creativity. 
-            Through my coursework and personal projects, I've been exploring real-time graphics, character animation, 
-            and Unreal Engine.</p>
+            student at McGill University. I'm super interested computer graphics, 3D, animation, simulation, and
+            game development. I like making cool stuff with code. In my free time, I've been working on graphics simulations,
+             character animation, and an open-world RPG game in Unreal Engine.</p>
             </div>
 
             <div
@@ -44,7 +43,7 @@ const App = () => {
             >
               
               <svg
-              className="absolute top-0 left-0 w-full h-full z-10 pointer-events-none -translate-y-68"
+              className="absolute top-0 left-0 w-full h-full z-10 pointer-events-none -translate-y-70"
               viewBox="0 0 1000 600"
               preserveAspectRatio="xMidYMid meet"
               >
@@ -89,14 +88,34 @@ const App = () => {
             className="absolute right-[5%] w-[45%]"
             />
 
+            <img
+            src="/Mushroom.gif"
+            className="absolute right-[0%] top-[29%] w-[30%]"
+            style={{
+              imageRendering: 'pixelated',
+              objectFit: 'contain',
+            }}
+            />
+
             
             <Link
               to="/projects"
-              className="absolute bottom-[15%] left-[7%] w-[50%] lg:w-[60%]"
+              className="absolute -rotate-5 top-[25%] left-[5%] w-[60%]"
             >
               <img
                 src="/Projects.png"
                 alt="Projects"
+                className="block w-full"
+              />
+            </Link>
+
+             <Link
+              to="/experience"
+              className="absolute rotate-5 top-[33%] right-[-5%] w-[60%]"
+            >
+              <img
+                src="/Experience.png"
+                alt="Experience"
                 className="block w-full"
               />
             </Link>

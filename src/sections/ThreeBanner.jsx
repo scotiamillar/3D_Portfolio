@@ -59,7 +59,7 @@ const ThreeBanner = () => {
         
         <RotatingShape
           position={[3, 2, -3]}
-          color="#53a12f"
+          color="#F7C331"
           shape="torusKnot"
           scale={0.6}
           animation="rotate1"
@@ -67,7 +67,7 @@ const ThreeBanner = () => {
         
         <RotatingShape
           position={[5, 0, 0]}
-          color="#e879f9"
+          color="#F7882F"
           shape="torus"
           scale={0.5}
           animation="rotate2"
@@ -75,7 +75,7 @@ const ThreeBanner = () => {
         
         <RotatingShape
           position={[9, 0, 0]}
-          color="#38bdf8"
+          color="#DCC7AA"
           shape="octahedron"
           scale={0.5}
           animation="rotate1"
@@ -83,7 +83,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[6, 1, 1]}
-          color="orange"
+          color="#7B7A8F"
           shape="cone"
           scale={0.3}
           animation="bounce"
@@ -92,7 +92,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[13, -2, -1]}
-          color="yellow"
+          color="#F7C331"
           shape="box"
           scale={0.6}
           animation="rotate2"
@@ -100,7 +100,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[-3, 2, -3]}
-          color="#60a5fa"
+          color="#7B7A8F"
           shape="torus"
           scale={0.6}
           animation="rotate1"
@@ -108,7 +108,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[-5, 0, 0]}
-          color="#34d399"
+          color="#DCC7AA"
           shape="octahedron"
           scale={0.5}
           animation="rotate1"
@@ -116,7 +116,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[-9, 0, 0]}
-          color="#fb7185"
+          color="#F7882F"
           shape="torusKnot"
           scale={0.5}
           animation="rotate2"
@@ -124,7 +124,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[-6, 1.5, 1]}
-          color="#a855f7"
+          color="#F7C331"
           shape="box"
           scale={0.6}
           animation="rotate1"
@@ -132,7 +132,7 @@ const ThreeBanner = () => {
 
         <RotatingShape
           position={[-13, -2, -1]}
-          color="#a78bfa"
+          color="#7B7A8F"
           shape="cone"
           scale={0.4}
           animation="bounce"

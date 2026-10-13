@@ -11,7 +11,7 @@ const Projects = () => {
       </h1>
 
       <p className="mt-4 text-lg">
-        Here are some of my programming, graphics, and game development projects.
+        TBA
       </p>
     </main>
     </>

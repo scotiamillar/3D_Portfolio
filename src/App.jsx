@@ -3,6 +3,8 @@ import Navbar from './sections/Navbar'
 import ThreeBanner from './sections/ThreeBanner'
 import { Routes, Route } from 'react-router'
 import Projects from './Projects.jsx'
+import Experience from './Experience.jsx'
+import Contact from './Contact.jsx'
 import { Link } from 'react-router'
 
 const App = () => {
@@ -106,6 +108,8 @@ const App = () => {
       />
 
       <Route path="/projects" element={<Projects />} />
+      <Route path="/experience" element={<Experience />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   )
 }

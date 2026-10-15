@@ -31,7 +31,12 @@ const Contact = () => {
 
       <main className="max-w-5xl mx-auto px-6 md:px-8 pt-28 pb-20">
         <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#F7882F]">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#F7882F]"
+          style={{
+          fontFamily: "'Qumpellkano', serif",
+          color: '#F7882F',
+          }}
+          >
             Contact Me
           </h1>
         </header>

@@ -16,20 +16,25 @@ const Experience = () => {
 
     <section className="mb-14">
         <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
-        <span className="w-2 h-8 rounded-full bg-[#F7882F]" />
+        <span className="w-2 h-8 rounded-full bg-[#F7882F]"/>
         Work Experience
         </h2>
 
         <div className="space-y-5">
 
         <article className="p-6 md:p-8 rounded-2xl border border-gray-200 bg-white/70 shadow-sm">
+            <h3 className="text-xl font-bold">Girls Who Code Facilitator</h3>
+            <p className="mt-3 text-gray-700 leading-7">
+            Taught Python at Sacred Hearts High School.
+            </p>
+        </article>
+        
+        <article className="p-6 md:p-8 rounded-2xl border border-gray-200 bg-white/70 shadow-sm">
             <h3 className="text-xl font-bold">Private Tutor</h3>
             <p className="mt-3 text-gray-700 leading-7">
-            Worked closely with a high school student with dyslexia and
-            dyscalculia to complete an accelerated self-study college
-            Statistics course in 1.5 months. Additional tutoring subjects
-            include Precalculus and the Specialized High Schools Admissions
-            Test (SHSAT).
+            Worked closely with a high school student with dyslexia and dyscalculia to complete an accelerated self-study
+            college Statistics course in 1.5 months. Additional tutoring subjects include Precalculus and NY specialized 
+            high school entrance exam (SHSAT).
             </p>
         </article>
 

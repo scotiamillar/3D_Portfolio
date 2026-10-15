@@ -4,14 +4,6 @@ body {
   margin: 0;
 }
 
-
-@font-face {
-  font-family: 'Gilbert Color';
-  src: url('/fonts/gilbert.color-bold-preview5.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'Qumpellkano';
   src: url('/fonts/Qumpellkano12-A6D2.otf') format('opentype');

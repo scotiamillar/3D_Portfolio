@@ -10,13 +10,23 @@ const projects = [
   {
     title: 'Transform Hierarchy of An Animated Character',
     video: '/videos/Dragon.mp4',
-    description: 'Used numpy and trimesh to create a character and keyframe animation using canonical transformations.',
+    description: 'Used numpy and trimesh to create a character and keyframe animation using canonical transformations',
+  },
+  {
+    title: 'Anaglyphs and Depth of Field',
+    video: '/videos/Frustum.mp4',
+    description: "Drew a scene with blur due to depth of field, and drew anaglyphs that allow for 3D viewing with color filter glasses using Open GL and PyGLM."
+  },
+  {
+    title: 'The ClubHub',
+    video: '/videos/ClubHub.mp4',
+    description: "Developed website using Next.js, React.js, Tailwind CSS, MongoDB, and Gemini API to easily find McGill clubs catered to described personality and interests"
   },
   {
     title: 'Interactive 3D Portfolio',
-    video: '/videos/Portfolio.png',
-    description: "Built responsive UI components using React and Tailwind CSS. Integrated interactive 3D scenes and animated objects using Three.js and React Three Fiber. Experimented with camera controls, animation, lighting, and visual design to create an engaging user experience. Deployed the website with Vercel and managed the codebase with Git and GitHub."
-  }
+    video: '/videos/Portfolio.mp4',
+    description: "Built responsive UI components using React and Tailwind CSS. Integrated interactive 3D scenes and animated objects using Three.js and React Three Fiber. Experimented with camera controls, animation, lighting, and visual design to create an engaging user experience. Deployed the website with Vercel"
+  },
 ];
 
 

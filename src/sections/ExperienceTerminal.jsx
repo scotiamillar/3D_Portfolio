@@ -29,7 +29,7 @@ const ExperienceTerminal = () => {
         '  experience - View experience',
         '  skills     - View technical skills',
         '  awards     - View awards',
-        '  leadership  - View leadership positions',
+        '  leadership - View leadership positions',
         ];
     } else if (input === 'education') {
         response = [

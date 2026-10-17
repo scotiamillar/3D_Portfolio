@@ -20,6 +20,14 @@ body {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Splendid';
+  src: url('/fonts/splendid-66.bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .fairy-bulb {
   animation: twinkle 1.5s ease-in-out infinite alternate;
 }

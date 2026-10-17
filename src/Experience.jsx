@@ -17,7 +17,10 @@ const Experience = () => {
           >
         My Experience
         </h1>
-        <div className="mt-6 rounded-xl bg-gray-100 border-l-4 border-[#F7882F] p-5 shadow-sm">
+        <div className="mt-6 rounded-xl bg-gray-100 border-l-4 border-[#F7882F] p-5 shadow-sm" style={{
+          fontFamily: "'Playfair Display', serif",
+          }}
+        >
             <p className="text-lg leading-8 tracking-wide">
                 Try typing in this terminal to look at my experience! If you've never used a command line, try typing 'help' to get started. (Note: I will add a pdf version of my resume in the future)
             </p>

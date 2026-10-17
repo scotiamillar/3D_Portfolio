@@ -15,7 +15,7 @@ const projects = [
   {
     title: 'Anaglyphs and Depth of Field',
     video: '/videos/Frustum.mp4',
-    description: "Drew a scene with blur due to depth of field, and drew anaglyphs that allow for 3D viewing with color filter glasses using Open GL and PyGLM."
+    description: "Drew a scene with blur due to depth of field, and drew anaglyphs that allow for 3D viewing with color filter glasses using Open GL and PyGLM"
   },
   {
     title: 'The ClubHub',
@@ -46,7 +46,7 @@ const Projects = () => {
           >
         My Projects </h1>
 
-        <div className="mt-8 h-[400px] w-full overflow-hidden rounded-2xl bg-gray-100">
+        <div className="mt-8 h-[400px] w-full overflow-hidden rounded-2xl bg-gray-100 shadow-md">
           <Canvas camera={{ position: [0, 1, 4], fov: 45 }}>
             <ambientLight intensity={1.5} />
 
@@ -67,7 +67,8 @@ const Projects = () => {
           </Canvas>
         </div>
 
-      <div className="mt-6 flex items-center justify-between gap-4">
+
+      <div className="mt-6 flex items-center gap-4">
         <button
           onClick={() =>
             setSelectedProject(
@@ -75,34 +76,38 @@ const Projects = () => {
             )
           }
           aria-label="Previous project"
-          className="rounded-full bg-[#F7882F] p-2 text-2xl text-white transition hover:bg-[#F7C331] hover:text-white duration-200"
+          className="rounded-full bg-[#F7882F] p-2 text-2xl text-white transition hover:bg-[#F7C331] hover:text-white duration-200 shadow-md"
         >
           ←
         </button>
 
-        <div className="text-center">
-          <h2 className="text-2xl font-bold">
-            {project.title}
-          </h2>
-          <p className="mt-2 text-zinc-400">
-            {project.description}
-          </p>
-          <p className="mt-3 text-sm text-zinc-500">
-            {selectedProject + 1} / {projects.length}
-          </p>
-        </div>
+          <div className="text-center min-w-0 flex-1 bg-amber-50 p-6 shadow-md">
+            <h2 className="text-3xl font-bold" style={{
+            fontFamily: "'Splendid', serif",
+            }}>
+              {project.title}
+            </h2>
+            <p className="mt-2 text-zinc-400" style={{
+            fontFamily: "'Playfair Display', serif",
+            }}>
+              {project.description}
+            </p>
+            <p className="mt-3 text-sm text-zinc-500">
+              {selectedProject + 1} / {projects.length}
+            </p>
+          </div>
 
-        <button
-          onClick={() =>
-            setSelectedProject(
-              (selectedProject + 1) % projects.length
-            )
-          }
-          aria-label="Next project"
-          className="rounded-full bg-[#F7882F] p-2 text-2xl text-white transition hover:bg-[#F7C331] hover:text-white duration-200"
-        >
-          →
-        </button>
+          <button
+            onClick={() =>
+              setSelectedProject(
+                (selectedProject + 1) % projects.length
+              )
+            }
+            aria-label="Next project"
+            className="rounded-full bg-[#F7882F] p-2 text-2xl text-white transition hover:bg-[#F7C331] hover:text-white duration-200 shadow-md"
+          >
+            →
+          </button>
       </div>
     </main>
 

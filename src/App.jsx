@@ -31,7 +31,7 @@ const App = () => {
             </h1>
 
             <p
-            className="text-lg font-normal text-black mt-4 pl-4" style={{
+            className="text-md font-normal text-black mt-4 pl-4" style={{
           fontFamily: "'Playfair Display', serif",
           }}
             > I'm a third-year Mathematics and Computer Science 

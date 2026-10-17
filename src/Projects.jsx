@@ -82,8 +82,8 @@ const Projects = () => {
         </button>
 
           <div className="text-center min-w-0 flex-1 bg-amber-50 p-6 shadow-md">
-            <h2 className="text-3xl font-bold" style={{
-            fontFamily: "'Splendid', serif",
+            <h2 className="text-2xl font-semibold" style={{
+            fontFamily: "'Playfair Display', serif",
             }}>
               {project.title}
             </h2>

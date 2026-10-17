@@ -21,7 +21,7 @@ const Experience = () => {
           fontFamily: "'Playfair Display', serif",
           }}
         >
-            <p className="text-lg leading-8 tracking-wide">
+            <p className="text-md leading-8 tracking-wide">
                 Try typing in this terminal to look at my experience! If you've never used a command line, try typing 'help' to get started. (Note: I will add a pdf version of my resume in the future)
             </p>
         </div>

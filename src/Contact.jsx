@@ -6,12 +6,6 @@ import ThreeDIcon from './sections/ThreeDIcon'
 const Contact = () => {
   const contacts = [
     {
-      name: 'GitHub',
-      image: '/Github.png',
-      href: 'https://github.com/scotiamillar',
-      external: true,
-    },
-    {
       name: 'LinkedIn',
       image: '/Linkedin.png',
       href: 'https://www.linkedin.com/in/scotia-millar-b13100348/',
@@ -22,6 +16,12 @@ const Contact = () => {
       image: '/Mail.png',
       href: 'mailto:scotia.millar@mail.mcgill.ca',
       external: false,
+    },
+    {
+      name: 'GitHub',
+      image: '/Github.png',
+      href: 'https://github.com/scotiamillar',
+      external: true,
     },
   ]
 
